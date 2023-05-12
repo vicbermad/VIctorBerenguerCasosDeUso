@@ -1,0 +1,8 @@
+@startuml
+actor Cliente as cl
+actor ClienteVIP as clvip
+
+cl -- (Reservar vuelo)
+clvip -- (Elegir asientos)
+cl <|-- clvip
+@enduml
