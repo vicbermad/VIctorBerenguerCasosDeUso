@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+actor Cliente as cl
+(Pedir Producto) as Pp
+(Cancelar) as canc
+(Devolver dinero) as Dd
+
+cl -- (Meter dinero)
+cl -- (Pedir azucar)
+cl -- Pp
+cl -- canc
+Pp ..> Dd : <<include>>
+canc ..> Dd : <<include>>
+@enduml
