@@ -1,0 +1,6 @@
+@startuml
+left to right direction
+actor Cliente as cl
+(Mostrar menú) as Mm
+cl -- Mm
+@enduml
