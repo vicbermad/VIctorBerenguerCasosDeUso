@@ -1,4 +1,0 @@
-@startuml
-(Pagar) <|-- (Pagar con tarjeta)
-(Pagar) <|-- (Pagar en efectivo)
-@enduml
